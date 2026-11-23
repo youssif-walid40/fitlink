@@ -1,0 +1,24 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+pubspec.lock
+
+# Platform folders are generated with `flutter create .` (see README)
+# Remove these two lines if you want to commit android/ and ios/.
+# android/
+# ios/
+
+# Firebase secrets – never commit
+google-services.json
+GoogleService-Info.plist
+backend/service-account*.json
+backend/.env
+backend/node_modules/
+
+.DS_Store
+backend/uploads/

@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "FitLink (Android emulator)",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--dart-define=BACKEND_URL=http://10.0.2.2:8080"]
+    },
+    {
+      "name": "FitLink (iOS simulator)",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--dart-define=BACKEND_URL=http://localhost:8080"]
+    }
+  ]
+}
